@@ -1,0 +1,140 @@
+/*Reset CSS para tirar todas as margens dos elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*estilizaçao do HEADER - Cabeçalho*/
+.cabeçalho {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cabeçalho > img{
+    height: 60px;
+}
+.menu{
+    display:flex ;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.menu > li:hover{
+    background-color: darkred;
+}
+.bemvindo{
+    background-image: url(/img/pizza.jpg);
+    height: 400px;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 10px darkgreen;
+}
+.pizzaria{
+    padding: 100p;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.botao-card{
+    background-color: rgba(0, 0, 0, 0.427);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 5px;
+}
+.botao-card:hover{
+    background-color: rgba(255, 255, 255, 0.579);
+    color: black;
+}
+main{
+    max-width: 1300px;
+    margin-top: 20px;
+    text-align: center;
+    margin:0 auto;
+}
+hr{
+    height: 5px;
+    border:none;
+    background: rgb(129,0,0);
+    background: linear-gradient(90deg, rgba(129,0,0,0) 8%, rgba(170,0,0,1) 46%, rgba(255,0,0,0) 100%);
+}
+.melhor{
+    color: darkslategrey;
+    text-align: center;
+}
+.sabores{
+    padding: 20px;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sabor{
+    margin: 5px;
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(60, 166, 106);
+
+}
+.preco{
+    background-color: rgb(255, 238, 0);
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 auto;
+}
+.nome{
+    margin-bottom: 15px;
+}
+img{
+    border-radius: 10px;
+}
+.promocao{
+    display: flex;
+    overflow: scroll;
+}
+.promocao::-webkit-scrollbar{
+    display: none;
+}
+.rodape{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+li{
+    list-style: none;
+    color: white;
+    
+}
+.redes{
+    color: white;
+    text-decoration: none;
+}
