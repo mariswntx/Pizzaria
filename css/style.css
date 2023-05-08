@@ -41,7 +41,7 @@ body {
     background-color: darkred;
 }
 .bemvindo{
-    background-image: url(/img/pizza.jpg);
+    background-image: url(../img/pizza.jpg);
     height: 400px;
     background-position: top center;
     background-size: cover;
